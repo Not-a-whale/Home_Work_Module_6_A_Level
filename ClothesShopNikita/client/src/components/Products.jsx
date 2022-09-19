@@ -23,7 +23,7 @@ const Products = ({cat, filters, sort}) => {
         const getProducts = async () => {
             try {
                 await DataManagementService.getAllProducts(cat);
-                setProducts((await axios.get(cat ? `https://localhost:7227/api/Shop=${cat}` : "https://localhost:7227/api/Shop")).data);
+                setProducts((await axios.get(cat ? `http://localhost:8080/api/Shop=${cat}` : "http://localhost:8080/api/Shop")).data);
             } catch (err) {
 
             }

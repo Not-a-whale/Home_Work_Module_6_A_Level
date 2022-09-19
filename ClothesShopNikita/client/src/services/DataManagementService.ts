@@ -54,7 +54,7 @@ export const DataManagementService = {
     },
 
     getAllProducts: async (cat?: string) => {
-        axios.get(cat ? `https://localhost:7227/api/Shop=${cat}` : "https://localhost:7227/api/Shop")
+        axios.get(cat ? `http://localhost:8080/api/Shop=${cat}` : "http://localhost:8080/api/Shop")
         .then((items) => {
             reactLocalStorage.setObject(LocalStorageKeysEnum.allProducts, items.data);
         });
@@ -87,7 +87,7 @@ export const DataManagementService = {
             const patchingObject = products.find(patchObject => patchObject.id === cartItem.id);
             const pathObject = {inStock: patchingObject!.inStock - cartItem.quantity > 0 ? patchingObject!.inStock - cartItem.quantity : 0};
 
-            axios.patch("https://localhost:7227/api/Shop/" + cartItem.id, pathObject).catch((err) => {
+            axios.patch("http://localhost:8080/api/Shop/" + cartItem.id, pathObject).catch((err) => {
                 alert(err.message);
             })
         });
