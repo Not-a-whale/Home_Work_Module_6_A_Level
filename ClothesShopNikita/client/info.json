@@ -1,0 +1,96 @@
+{
+  "products": [
+    {
+      "categories": [
+        "coat",
+        "women"
+      ],
+      "color": [
+        "red"
+      ],
+      "createdAt": "2021-09-10T15:28:56.441Z",
+      "desc": "lorem ipsum dolor sir",
+      "img": "https://i.ibb.co/DG69bQ4/2.png",
+      "inStock": 3,
+      "price": 89,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "title": "Herman Coat",
+      "updatedAt": "2021-09-10T15:28:56.441Z",
+      "__v": 0,
+      "id": "1"
+    },
+    {
+      "categories": [
+        "coat",
+        "women"
+      ],
+      "color": [
+        "gray"
+      ],
+      "createdAt": "2021-09-10T15:28:56.441Z",
+      "desc": "lorem ipsum dolor sir",
+      "img": "https://papayashop.com.ua/assets/images/products/9317/trench-coat-124-caramel-1.jpg",
+      "inStock": 7,
+      "price": 89,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "title": "TRENCH COAT",
+      "updatedAt": "2021-09-10T15:28:56.441Z",
+      "__v": 0,
+      "id": "2"
+    },
+    {
+      "categories": [
+        "coat",
+        "woman"
+      ],
+      "color": [
+        "yellow"
+      ],
+      "createdAt": "2021-09-10T15:28:56.441Z",
+      "desc": "lorem ipsum dolor sir",
+      "img": "https://papayashop.com.ua/assets/images/products/9315/3.jpg",
+      "inStock": 4,
+      "price": 89,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "title": "CROPPED SHIRT",
+      "updatedAt": "2021-09-10T15:28:56.441Z",
+      "__v": 0,
+      "id": "3"
+    },
+    {
+      "categories": [
+        "coat",
+        "woman"
+      ],
+      "color": [
+        "blue"
+      ],
+      "createdAt": "2021-09-10T15:28:56.441Z",
+      "desc": "lorem ipsum dolor sir",
+      "img": "https://papayashop.com.ua/assets/images/products/9313/14.jpg",
+      "inStock": 4,
+      "price": 89,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "title": "BASIC SHIRT",
+      "updatedAt": "2021-09-10T15:28:56.441Z",
+      "__v": 0,
+      "id": "3"
+    }
+  ]
+}
